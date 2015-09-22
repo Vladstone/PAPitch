@@ -1,0 +1,60 @@
+---
+title       : Investment Fund Fee Analyser
+subtitle    : True Cost of Investment Management Fees
+author      : Gary Laughton
+job         : Developer
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Investment Management Fees
+
+Everyone who manages to save some money for their retirement must figure out how to invest those funds.
+Creating your own portfolio of investments is a daunting and time consuming endeavor. One solution is to 
+to put money into a pooled fund, like a mutual fund or exchange traded fund (ETF).  These provide a simple 
+efficent way to create a diversified portfolio, but how much do they really cost. Fees are expressed as in
+terms of a management expense ratio. The amount is often somewhere between 1% and 2%.  This sounds reasonable
+enough, but 1-2% of your entire investment fund per year is in fact quite a significant amount. In fact 2% a
+year compounded doubles in 35 years:
+
+```{r}
+1.02 ^ 35
+```
+
+How significant? The Investment Fund Fee Analyser shows just how much of a bite fees will take from your investment fund.
+
+--- .class #id 
+
+## Benefits 
+
+The Investment Fund Fee Analyser has the following benefits
+
+1. Shows the power of compounding or exponential growth.
+2. Shows the drag fees place on this growth.
+3. Applies to qualified plans like IRA and 401k.
+4. Easy to follow graphical illustration.
+5. Requires only a few simple inputs.
+6. Change an input and results update immediately.
+
+--- .class #id 
+
+## Limitations
+
+The Investment Fund Fee Analyser has the following limitations
+
+1. Does not consider inflation.
+2. Does not consider tax implications.
+
+--- .class #id 
+
+## What Can I Do About It
+
+How can I protect myself and still provide for my retirement
+
+1. Look for low cost options. Some indexed exchange traded funds have fees as low as 0.05%.
+2. Beware of financial advisers. They are often salesmen pushing high fee investments on which they receive a commission.
+3. Consider fee for service financial advisors.
